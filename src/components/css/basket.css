@@ -1,0 +1,323 @@
+.basked-modal{
+    border-radius: 20px;
+    width: 800px;
+    height: 250px;
+    background-color: white!important;
+    margin-top: 20px;
+    color:blue;
+    box-shadow: rgba(0, 0, 0, 0.25) 0px 54px 55px, rgba(0, 0, 0, 0.12) 0px -12px 30px, rgba(0, 0, 0, 0.12) 0px 4px 6px, rgba(0, 0, 0, 0.17) 0px 12px 13px, rgba(0, 0, 0, 0.09) 0px -3px 5px;
+}
+.backetTotal{
+    width: 200px;
+    height: 40px;
+    text-align: center;
+    color:white;
+    border-radius:4px; 
+    margin-top: 20px;   
+    margin-left: -600px;
+    font-size: 18px;
+    font-family: monospace;
+    background-color:aqua;
+}
+
+
+
+@media only screen and (max-width:1048px) {
+    .basked-modal{
+      width: 600px;
+      margin-left: -300px;
+    }
+     
+      }
+
+      
+@media only screen and (max-width:756px) {
+    .basked-modal{
+      width: 500px;
+      margin-left: -340px;
+      font-size: 12px;
+    }
+     
+      }
+
+
+@media only screen and (max-width:500px) {
+    .backetTotal{
+     margin-left: -1200px;
+    }
+    .basked-modal{
+        width: 400px;
+        margin-left: -700px;
+    }
+    .backetTotal{
+        width: 100px;
+        position: absolute;
+        text-align: center;
+        color:white;
+        background-color:purple;
+        position: absolute;
+        margin-top:-590px;
+        margin-left: -700px;
+    }
+    .btn-close-shop{
+        margin-left: -600px;
+    }
+}
+
+.BacketModalBack{
+    background: white;
+    width: 100%;
+    height: 100%;
+    position: fixed;
+    top:0;
+    left: 0;
+   
+    opacity: 0.9;
+}
+.basked-modal-title{
+    text-align: center;
+    color: blueviolet;
+    display: block!important;
+}
+.basked-modal-img{
+    width: 150px;
+    height: 150px;
+    object-fit: contain;
+}
+.basked-modal-price{
+ font-style: italic;
+ font-size: 22px;
+}
+.basked-modal-price-i{
+    background: rgb(117, 117, 189);
+    color:white;
+}
+.basket-modal-container{
+    display: flex;
+    flex-direction: column;
+    border:2px solid transparent;
+    justify-content: center;
+    align-items: center;
+    background: #fffcfc;
+}
+.modal-container{
+    display: flex;
+    justify-content: space-around;
+    flex-direction: row;
+    align-items: center;
+}
+.btn-x,.btn-inc,.btn-dec{
+    width: 35px;
+    height: 35px;
+    padding: 5px 5px;
+    background: rgb(178, 102, 250);
+    border-radius:10%;
+    border:none;
+    margin-left:5px;
+    color:white;
+}
+.btn-delete{
+    display: block!important;
+    background: rgb(237, 76, 103);
+    border:none;
+    padding: 8px 8px;
+    color:white;
+}
+
+
+
+
+
+@media only screen and (max-width:786px) {
+    .basked-modal{
+      width: 600px;
+      margin-left: -450px;
+    }
+     
+      }
+
+      @media only screen and (max-width:714px) {
+        .basked-modal{
+          width: 500px;
+          margin-left: -520px;
+        }
+         
+          }
+
+          @media only screen and (max-width:622px) {
+            .basked-modal{
+              width: 440px;
+              margin-left: -650px;
+            }
+             
+              }
+      
+
+@media only screen and (max-width:434px) {
+    .basked-modal{
+     width: 400px;
+     margin-left: -760px;
+    }
+    .basked-modal-title{
+     font-size: 2px;
+    }
+ }
+ @media only screen and (max-width:424px) {
+    .basked-modal{
+     width: 400px;
+     margin-left: -780px;
+    }
+    .basked-modal-title{
+     font-size: 2px;
+    }
+ }
+ @media only screen and (max-width:414px) {
+    .basked-modal{
+     width: 400px;
+     margin-left: -790px;
+    }
+    .basked-modal-title{
+     font-size: 2px;
+    }
+ }
+ @media only screen and (max-width:400px) {
+    .basked-modal{
+     width: 360px;
+     margin-left: -790px;
+    }
+    .basked-modal-img{
+        width: 50px;
+    }
+   
+ }
+
+ @media only screen and (max-width:388px) {
+    .basked-modal{
+     width: 360px;
+     margin-left: -820px;
+    }
+    .basked-modal-img{
+        width: 50px;
+    }
+   
+ }
+
+ @media only screen and (max-width:372px) {
+    .basked-modal{
+     width: 360px;
+     margin-left: -830px;
+    }
+    .basked-modal-img{
+        width: 50px;
+    }
+   
+ }
+ @media only screen and (max-width:366px) {
+    .basked-modal{
+     width: 328px;
+     margin-left: -830px;
+    }
+  
+   
+ }
+ @media only screen and (max-width:350px) {
+    .basked-modal{
+     width: 328px;
+     margin-left: -856px;
+    }
+
+   
+ }
+
+
+    @media only screen and (max-width:522px) {
+        .basked-modal{
+        width: 428px;
+        margin-left: -680px;
+        }
+    
+    
+    }
+ 
+    @media only screen and (max-width:484px) {
+        .basked-modal{
+        width: 400px;
+        margin-left: -740px;
+        }
+        .basked-modal-img{
+            width: 80px;
+        }
+    
+    
+    }
+
+    
+    @media only screen and (max-width:452px) {
+        .basked-modal{
+        width: 300px;
+        margin-left: -780px;
+        }
+        .basked-modal-img{
+            width: 80px;
+        }
+    
+    
+    }
+
+     
+    @media only screen and (max-width:408px) {
+        .basked-modal{
+        width: 300px;
+        margin-left: -810px;
+        }
+        .basked-modal-img{
+            width: 80px;
+        }
+      .backetTotal{
+        width: 200px;
+        
+        background-color:orange;
+        margin-top: -1000px;
+        position: absolute;
+      }
+    
+    }
+
+     
+    @media only screen and (max-width:358px) {
+        .basked-modal{
+        width: 300px;
+        margin-left: -840px;
+        }
+        .basked-modal-img{
+            width: 80px;
+        }
+    
+    
+    }
+
+     
+    @media only screen and (max-width:334px) {
+        .basked-modal{
+        width: 300px;
+        margin-left: -880px;
+        }
+        .basked-modal-img{
+            width: 80px;
+        }
+    
+    
+    }
+
+       
+    @media only screen and (max-width:278px) {
+        .basked-modal{
+        width: 256px;
+        margin-left: -940px;
+        }
+        .basked-modal-img{
+            width: 60px;
+        }
+    
+    
+    }

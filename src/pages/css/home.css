@@ -1,0 +1,29 @@
+.Shirt_category{
+    width: 400px;
+    height: 300px;
+    background-color:whitesmoke;
+    border-radius: 4px;
+}
+.display_flex{
+    width: 100%;
+    margin-top: 100px;
+    display: flex;
+    justify-content: space-around;
+}
+.ull{
+    display: flex;
+    justify-content: space-around;
+}
+.b{
+    text-align: center;
+    margin-left: 140px;
+}
+
+@media only screen and (max-width:500px) {
+.Shirt_category{
+    width: 200px;
+    margin-left: 10px;
+    font-size: 12px;
+    display: block;
+}
+}

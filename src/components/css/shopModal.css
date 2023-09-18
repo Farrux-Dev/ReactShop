@@ -1,0 +1,70 @@
+.modal_back{
+    width: 100%;
+   
+    left: 0;
+    top: 0;
+    display: block;
+}
+input{
+    display: block;
+    margin-top: 20px;
+    margin-left: 500px;
+    width: 200px;
+    height: 40px;
+    border: 1px solid aqua;
+}
+.ButtonCl{
+    width: 100px;
+    height: 40px;
+    border-radius:4px;
+    border: 2px solid aqua;
+    margin-left: 550px;
+    margin-top: 20px;
+}
+.ButtonCl:hover{
+    background-color:aqua;
+    color:white;
+    font-family: monospace;
+}
+   
+@media only screen and (max-width:658px) {
+    form{
+        margin-left: -300px;
+    }
+    .ButtonCl{
+        margin-left: 260px;
+    }
+    .b2{
+        margin-left: -400px;
+    }
+
+
+}
+@media only screen and (max-width:426px) {
+    form{
+        margin-left: -380px;
+    }
+    .ButtonCl{
+        margin-left: 180px;
+    }
+    .b2{
+        margin-left: -400px;
+    }
+
+
+
+}
+
+@media only screen and (max-width:344px) {
+    form{
+        margin-left: -400px;
+    }
+    .ButtonCl{
+        margin-left: 160px;
+    }
+    .b2{
+        margin-left: -400px;
+    }
+
+
+}

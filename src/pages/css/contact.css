@@ -1,0 +1,212 @@
+.input2{
+    width: 400px;
+    margin-left: 500px;
+    margin-top: 200px;
+}
+.input4{
+    width: 400px;
+    margin-left: 100px;
+    margin-top: 200px;
+}
+.input9{
+    width: 920px;
+    max-height: 200px;
+    margin-left: 499px;
+    border: 1px solid aqua;
+}
+.send_button{
+    margin-left: 900px;
+}
+
+
+@media only screen and (max-width:1432px) {
+    .input2{
+        margin-left: 200px;
+    }
+    .input9{
+        margin-left: 200px;
+    }
+    .send_button{
+        margin-left: 600px;
+    }
+    
+}
+
+@media only screen and (max-width:1134px) {
+    .input2{
+        width: 200px;
+        margin-left: 300px;
+    }
+    .input4{
+        width: 200px;
+    }
+    .input9{
+        width: 520px;
+        margin-left: 300px;
+    }
+    .send_button{
+        margin-left: 500px;
+    }
+}
+
+@media only screen and (max-width:1134px) {
+    .input2{
+        width: 200px;
+        margin-left: 100px;
+    }
+    .input4{
+        width: 200px;
+    }
+    .input9{
+        width: 520px;
+        margin-left: 100px;
+    }
+    .send_button{
+        margin-left:300px;
+    }
+}
+
+@media only screen and (max-width:634px) {
+    .input2{
+        width: 200px;
+        margin-left: 40px;
+    }
+    .input4{
+        width: 200px;
+    }
+    .input9{
+        width: 520px;
+        margin-left: 40px;
+    }
+    .send_button{
+        margin-left: 240px;
+    }
+}
+
+
+@media only screen and (max-width:572px) {
+    .input2{
+        width: 140px;
+        margin-left: 100px;
+    }
+    .input4{
+        width: 140px;
+    }
+    .input9{
+        width: 400px;
+        margin-left: 100px;
+    }
+    .send_button{
+        margin-left: 240px;
+    }
+}
+
+
+@media only screen and (max-width:512px) {
+    .input2{
+        width: 120px;
+        margin-left: 80px;
+    }
+    .input4{
+        width: 120px;
+    }
+    .input9{
+        width: 360px;
+        margin-left: 80px;
+    }
+    .send_button{
+        margin-left: 200px;
+    }
+}
+
+
+
+
+@media only screen and (max-width:452px) {
+    .input2{
+        width: 100px;
+        margin-left: 60px;
+    }
+    .input4{
+        width: 100px;
+    }
+    .input9{
+        width: 320px;
+        margin-left: 60px;
+    }
+    .send_button{
+        margin-left: 180px;
+    }
+}
+
+
+@media only screen and (max-width:394px) {
+    .input2{
+        width: 80px;
+        margin-left: 40px;
+    }
+    .input4{
+        width: 100px;
+    }
+    .input9{
+        width: 300px;
+        margin-left: 40px;
+    }
+    .send_button{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width:352px) {
+    .input2{
+        width: 80px;
+        margin-left: 20px;
+    }
+    .input4{
+        width: 100px;
+    }
+    .input9{
+        width: 300px;
+        margin-left: 20px;
+    }
+    .send_button{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and (max-width:332px) {
+    .input2{
+        width: 80px;
+        margin-left: 10px;
+    }
+    .input4{
+        width: 100px;
+    }
+    .input9{
+        width: 300px;
+        margin-left: 10px;
+    }
+    .send_button{
+        margin-left: 110px;
+    }
+}
+
+@media only screen and (max-width:328px) {
+    .input2{
+        width: 60px;
+        margin-left: 34px;
+    }
+    .input4{
+        width: 60px;
+    }
+    .input9{
+        width: 220px;
+        margin-left: 40px;
+    }
+    .send_button{
+        margin-left: 110px;
+    }
+}
+
+
+

@@ -1,0 +1,23 @@
+:root{
+    --body-bg-color:red;
+    --body-home-color:#f3f3f7;
+    --body-button-color:aqua;
+    --body-text-colorBlue:blue;
+    --body-text-colorBlack:black;
+    --body-text-colorGray:gray;
+    --body-input-color:aqua;
+    --body-artickleicolor:rgba(65, 192,77, 0.25);
+
+}
+
+body.dark{
+    --body-bg-color:rgb(58, 54, 54);
+    --body-home-color:#f3f3f7;
+    --body-button-color:aqua;
+    --body-text-colorBlue:blue;
+    --body-text-colorBlack:white;
+    --body-text-colorGray:yellow;
+    --body-input-color:aqua;
+    --body-artickleicolor:rgba(65, 192,77, 0.25);
+    
+}

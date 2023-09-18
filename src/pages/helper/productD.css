@@ -1,0 +1,212 @@
+.product-card{
+    border:2px solid aqua;
+    width: 800px;
+    height: 600px;
+    margin: 80px 580px;
+    text-align: center;
+}
+.product-img{
+    width: 200px;
+    height: 200px;
+    margin: 20px 300px;
+}
+.border2{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    background-color: aqua;
+
+}
+.button{
+    width: 100px;
+    height: 40px;
+    border-radius: 4px;
+    border:2px solid aqua;
+}
+.shop_button{
+    margin-top: 40px;
+}
+@media only screen and  (max-width:1400px) {
+    .product-card{
+        margin-left: 300px;
+    }
+}
+@media only screen and  (max-width:1110px) {
+    .product-card{
+        margin-left: 140px;
+    }
+}
+@media only screen and  (max-width:942px) {
+    .product-card{
+        margin-left: 80px;
+    }
+}
+@media only screen and  (max-width:880px) {
+    .product-card{
+       width: 600px;
+    }
+    .product-img{
+        margin-left: 200px;
+    }
+}
+
+@media only screen and  (max-width:680px) {
+    .product-card{
+        margin-left: 20px;
+    }
+}
+
+@media only screen and  (max-width:622px) {
+    .product-card{
+     width: 500px;
+     margin-left: 40px;
+    }
+    .product-img{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and  (max-width:540px) {
+    .product-card{
+     width: 400px;
+     margin-left: 80px;
+     font-size: 12px;
+    }
+    .product-img{
+        margin-left: 120px;
+    }
+}
+
+@media only screen and  (max-width:492px) {
+    .product-card{
+     width: 400px;
+     margin-left: 40px;
+     font-size: 12px;
+    }
+    .product-img{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and  (max-width:444px) {
+    .product-card{
+     width: 400px;
+     margin-left: 20px;
+    }
+    .product-img{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and  (max-width:422px) {
+    .product-card{
+     width: 400px;
+     margin-left: 10px;
+    }
+    .product-img{
+        margin-left: 140px;
+    }
+}
+
+@media only screen and  (max-width:412px) {
+    .product-card{
+     width: 300px;
+     margin-left: 60px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:100px;
+    }
+}
+@media only screen and  (max-width:362px) {
+    .product-card{
+     width: 300px;
+     margin-left: 30px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:100px;
+    }
+}
+@media only screen and  (max-width:342px) {
+    .product-card{
+     width: 300px;
+     margin-left: 20px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:100px;
+    }
+}
+@media only screen and  (max-width:324px) {
+    .product-card{
+     width: 300px;
+     margin-left: 10px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:100px;
+    }
+}
+@media only screen and  (max-width:310px) {
+    .product-card{
+     width: 300px;
+     margin-left: 4px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:100px;
+    }
+}
+@media only screen and  (max-width:304px) {
+    .product-card{
+     width: 240px;
+     margin-left: 20px;
+     font-size: 12px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:60px;
+    }
+}
+@media only screen and  (max-width:264px) {
+    .product-card{
+     width: 240px;
+     margin-left: 10px;
+     font-size: 12px;
+    }
+    .product-img{
+        width: 100px;
+        height: 100px;
+        margin-left:60px;
+    }
+}
+
+.custom-loader {
+    margin-left: 960px;
+    margin-top: 400px;
+    --d:44px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: #766DF4;
+    box-shadow: 
+      calc(1*var(--d))      calc(0*var(--d))     0 0,
+      calc(0.707*var(--d))  calc(0.707*var(--d)) 0 2px,
+      calc(0*var(--d))      calc(1*var(--d))     0 4px,
+      calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 6px,
+      calc(-1*var(--d))     calc(0*var(--d))     0 8px,
+      calc(-0.707*var(--d)) calc(-0.707*var(--d))0 10px,
+      calc(0*var(--d))      calc(-1*var(--d))    0 12px;
+    animation: s7 1s infinite steps(8);
+  }
+  
+  @keyframes s7 {
+    100% {transform: rotate(1turn)}
+  }

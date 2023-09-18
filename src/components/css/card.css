@@ -1,0 +1,204 @@
+.card_img{
+    width: 200px;
+    height: 200px;
+    align-items: center;
+    text-align: center;
+    margin-left: 60px;
+}
+
+.card{
+    width: 400px;
+    height: 400px;
+    margin-left: 60px;
+    display: inline-block;
+}
+.section{
+    width: 100%;
+    display: inline-block;
+}
+.card_check{
+    width: 200px;
+    height: 40px;
+    background-color: yellow;
+    
+}
+.card_rate_flex{
+    width: 140px;
+    color: gray;
+    display: flex;
+    justify-content: space-around;
+}
+
+.btnBuy{
+    width: 100px;
+    height: 30px;
+    background-color:aqua;
+    border-radius:8px;
+    float: right;
+}
+
+@media only screen and (max-width:462px) {
+    .card{
+        
+    }
+   
+    }
+
+    @media only screen and (max-width:484px) {
+       .card{
+        width: 150px;
+        font-size: 10px;
+        margin-left: 39px;
+       }
+       .card_img{
+        width: 80px;
+        height: 90px;
+        margin-left:10px;
+       }
+       .btnBuy{
+        width: 60px;  
+        height: 30px;
+        float: inherit;
+        margin-left: 20px;
+    }
+        }
+
+    
+
+        @media only screen and (max-width:476px) {
+            .card   {
+                width: 180px;
+              margin-left:40px;
+            }
+            .card_img{
+                width: 100px;
+            }
+            }
+  
+
+            @media only screen and (max-width:432px) {
+                .card   {
+                    width: 170px;
+                  margin-left:32px;
+                }
+                .card_img{
+                    width: 100px;
+                }
+                }
+            @media only screen and (max-width:428px) {
+                .card   {
+                    width: 170px;
+                  margin-left:30px;
+                }
+                .card_img{
+                    width: 100px;
+                }
+                }
+        @media only screen and (max-width:416px) {
+            .card   {
+                width: 140px;
+              margin-left:20px;
+            }
+            .card_img{
+                width: 100px;
+            }
+            }
+            @media only screen and (max-width:412px) {
+                .card   {
+                    width: 160px;
+                  margin-left:30px;
+                }
+                .card_img{
+                    width: 90px;
+                }
+                }
+            @media only screen and (max-width:408px) {
+                .card{
+                    width: 170px;
+                }
+            }
+          
+
+            @media only screen and (max-width:396px) {
+                .card   {
+                    width: 160px;
+                  margin-left:30px;
+                }
+                .card_img{
+                    width: 80px;
+                }
+                }
+
+            @media only screen and (max-width:384px) {
+                .card{
+                    width: 160px;
+                }
+            }
+          
+            @media only screen and (max-width:372px) {
+                .card   {
+                    width: 150px;
+                  margin-left:30px;
+                }
+                .card_img{
+                    width: 80px;
+                }
+                .btnBuy{
+                    width: 50px;
+                }
+                }
+
+            @media only screen and (max-width:356px) {
+                .card{
+                    width: 150px;
+                }
+                .btnBuy{
+                    width: 40px;
+                }
+                .card_img{
+                    width: 70px;
+                }
+                }
+
+                @media only screen and (max-width:353px) {
+                    .card   {
+                        width: 140px;
+                      margin-left:10px;
+                    }
+                    .card_img{
+                        width: 50px;
+                    }
+                    }
+                @media only screen and (max-width:352px) {
+                    .card   {
+                        width: 140px;
+                      margin-left:30px;
+                    }
+                    .card_img{
+                        width: 72px;
+                    }
+                    }
+
+                    @media only screen and (max-width:336px) {
+                        .card   {
+                            width: 140px;
+                          margin-left:10px;
+                          font-size: ;
+                        }
+                        .card_img{
+                            width: 60px;
+                            height: 60px;
+                        }
+                        }
+
+                        @media only screen and (max-width:296px) {
+                            .card   {
+                                width: 120px;
+                              margin-left:20px;
+                              font-size:  9px;
+                            }
+                            .card_img{
+                                width: 50px;
+                                height: 50px;
+                            }
+                            }

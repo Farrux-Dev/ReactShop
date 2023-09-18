@@ -1,0 +1,107 @@
+.BacketModal{
+    width: 1200px!important;
+    height: 80vh;
+    overflow-y: scroll;
+    margin-top: -20px;
+}
+.btn-close-shop{
+    background: blueviolet!important;
+    width: 100px;
+    height: 30px;
+    padding: 5px 5px;
+    margin-left: 45%!important;
+    border-radius: 10px;
+    margin-top: 2%;
+}
+
+
+
+.backet_icon{
+    margin-left: 380px;
+    margin-top: 84px;
+    font-size: 22px; 
+    color: aqua;
+    
+    
+}
+.shop{
+    width: 200px;
+    height: 40px;
+    border-radius:8px;
+    background-color: aqua;
+    margin-left: 500px;
+}
+.btn_shop_button{
+    width: 100px;
+    height: 20px;
+    border-radius: 4px;
+    color:white;
+    align-items:center;
+    background-color: rgb(0, 255, 255);
+}
+@media only screen and (max-width:722px) {
+  
+.backet_icon{
+    width: 100px;
+    height: 40px;
+    margin-left:20px;
+    margin-top: -20px;
+    }
+}
+
+@media only screen and (max-width:1048px) {
+  .basked-modal{
+    width: 100px;
+    margin-left: -100px;
+  }
+   
+    }
+
+
+    @media only screen and (max-width:960px) {
+        .basked-modal{
+          width: 100px;
+          margin-left: -200px;
+        }
+         
+          }
+
+
+          @media only screen and (max-width:906px) {
+            .basked-modal{
+              width: 100px;
+              margin-left: -250px;
+            }
+             
+              }
+
+              @media only screen and (max-width:700px) {
+               .shop{
+                margin-left:200px;
+               }
+               .btn_shop_button{
+                margin-left:-600px;
+               }
+                 
+                  }
+
+                  @media only screen and (max-width:482px) {
+                    .shop{
+                     margin-left:140px;
+                    }
+                    .btn_shop_button{
+                     margin-left:-700px;
+                    }
+                      
+                       }
+
+                       
+                  @media only screen and (max-width:334px) {
+                    .shop{
+                     margin-left:60px;
+                    }
+                    .btn_shop_button{
+                     margin-left:-900px;
+                    }
+                      
+                       }

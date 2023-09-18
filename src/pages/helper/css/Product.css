@@ -1,0 +1,91 @@
+.custom-loader2 {
+    margin-left: 960px;
+    margin-top: 200px;
+    --d:44px;
+    width: 8px;
+    height: 8px;
+    border-radius: 50%;
+    color: aqua;
+    box-shadow: 
+      calc(1*var(--d))      calc(0*var(--d))     0 0,
+      calc(0.707*var(--d))  calc(0.707*var(--d)) 0 2px,
+      calc(0*var(--d))      calc(1*var(--d))     0 4px,
+      calc(-0.707*var(--d)) calc(0.707*var(--d)) 0 6px,
+      calc(-1*var(--d))     calc(0*var(--d))     0 8px,
+      calc(-0.707*var(--d)) calc(-0.707*var(--d))0 10px,
+      calc(0*var(--d))      calc(-1*var(--d))    0 12px;
+    animation: s7 1s infinite steps(8);
+  }
+  
+  @keyframes s7 {
+    100% {transform: rotate(1turn)}
+  }
+  .search_input{
+    width: 800px;
+    height: 40px;
+    border-radius:8px;
+    border:2px solid aqua;
+    margin-top: 100px;
+    margin-left: 540px;
+    outline: none;
+    color:aqua;
+ 
+  }
+  @media only screen and (max-width:1384px) {
+    .search_input{
+      margin-left: 340px;
+    }
+    }
+    
+    @media only screen and (max-width:1154px) {
+      .search_input{
+        width: 600px;
+        margin-left: 240px;
+      }
+      }
+
+      @media only screen and (max-width:840px) {
+        .search_input{
+          margin-left: 100px;
+        }
+        }
+
+        @media only screen and (max-width:704px) {
+          .search_input{
+            width: 340px;
+            margin-left: 100px;
+          }
+          }
+          @media only screen and (max-width:462px) {
+            .search_input{
+              width: 260px;
+              margin-left: 100px;
+            }
+            }
+            @media only screen and (max-width:412px) {
+          .search_input{
+            width: 200px;
+          }
+              }
+            @media only screen and (max-width:374px) {
+              .search_input{
+                width: 220px;
+                margin-left: 100px;
+              }
+              }
+              @media only screen and (max-width:353px) {
+             .search_input{
+              width: 160px;
+             }
+                }
+              @media only screen and (max-width:336px) {
+               .search_input{
+                width: 160px;
+               }
+                }
+
+
+  header{
+    background-color: var(--body-bg-color);
+  }
+ 
